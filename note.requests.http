@@ -1,0 +1,30 @@
+### Create note
+POST {URL}/notes
+Content-Type: application/json
+
+{
+  "content": "read the nest document",
+  "state":1
+}
+
+
+### GetAll notes
+GET {URL}/notes
+
+
+### Get note by id
+GET {URL}/notes/1746345851550
+
+
+### Delete note by id
+DELETE {URL}/notes/1746345851550
+
+
+### Update note by id
+PUT {URL}/notes/1746345851550
+Content-Type: application/json
+
+{
+  "content": "read the nest document",
+  "state":2
+}
